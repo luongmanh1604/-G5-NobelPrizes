@@ -21,9 +21,6 @@ ul li {
     list-style: none;
     display: inline;
 }
-ul#main_menu li {
-   
-}
 ul#main_menu li a {
     padding: 12px 15px;
     display: inline;
@@ -37,10 +34,11 @@ ul {
     text-align: center;
 }
 .image {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
 
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 20px;
    
 }
 
