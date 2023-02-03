@@ -12,7 +12,7 @@
     margin-bottom: 40px;
 }
 ul#main_menu {
-    display: flex;
+    
     margin-left: auto;
     margin-right:auto;
     text-align: center;
@@ -22,7 +22,7 @@ ul li {
     display: inline;
 }
 ul#main_menu li {
-    float: left;
+   
 }
 ul#main_menu li a {
     padding: 12px 15px;
@@ -31,8 +31,16 @@ ul#main_menu li a {
     display: inline-block;
     font-size: 18px;
     transition: 0.4s;
+    color:black;
 }
 ul {
     text-align: center;
+}
+.image {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+   
 }
 
