@@ -45,4 +45,23 @@ ul {
 li a:hover {
     background-color: rgb(244, 191, 122);
 }
-
+.form {
+    float: left;
+    padding: 5px;
+}
+.form.side {
+    width: 5%;
+}
+.form.center {
+    width: 90%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .form.side, .form.center {
+      width: 100%;
+    }
+  }
