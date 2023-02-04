@@ -32,6 +32,7 @@ ul#main_menu li a {
 }
 ul {
     text-align: center;
+    background-color: rgb(251, 236, 217);
 }
 .image {
     width:100%;
@@ -41,8 +42,11 @@ ul {
 
    
 }
-ul#main_menu li a:hover {
-    color:blue;
+
+
+
+li a:hover {
+    background-color: rgb(244, 191, 122);
 
 }
 
