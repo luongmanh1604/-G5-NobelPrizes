@@ -1,13 +1,13 @@
-<<<<<<< HEAD
 
-=======
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 50px;
 }
 .header {
     text-align: center;
 }
->>>>>>> ef05978357d4a9a468f89049952c57bcfafdde62
 .tieude {
     color: rgb(230, 140, 23);
     text-align: center;
@@ -21,31 +21,35 @@ body {
 
 }
 .menu {
+    justify-items: center;
     background-color: rgb(230, 140, 23);
     margin-bottom: 5px;
 }
 .mainmenu {
-    display: flex;
+   text-align: center;
+   display: inline-block;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 .mainmenu li a {
     color: black;
-    display: block;
-    padding: 5px 20px;
+    display: inline;
+    padding: 15px 15px;
     text-decoration: none;
-<<<<<<< HEAD
     display: inline-block;
     font-size: 18px;
     transition: 0.4s;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:black;
-=======
->>>>>>> ef05978357d4a9a468f89049952c57bcfafdde62
-}
-li {
+   
     text-align: center;
+}
+.mainmenu li {
+    float:left;
+    
+}
+
 
 }
 li a {
@@ -67,7 +71,6 @@ li a:hover {
    
 }
 
-<<<<<<< HEAD
 
 
 li a:hover {
@@ -102,5 +105,3 @@ li a:hover {
 }
 .textlitery{    max-height: 300px;
 }
-=======
->>>>>>> ef05978357d4a9a468f89049952c57bcfafdde62
