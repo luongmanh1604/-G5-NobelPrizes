@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 
+=======
+body {
+    margin: 50px;
+}
+.header {
+    text-align: center;
+}
+>>>>>>> ef05978357d4a9a468f89049952c57bcfafdde62
 .tieude {
     color: rgb(230, 140, 23);
     text-align: center;
@@ -6,30 +15,49 @@
     font-size: 30px;
     margin-bottom: 40px;
 }
-ul#main_menu {
-    
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
+.inmenu {
+    max-width: 1500px;
+    margin: 0 auto;
+
 }
-ul li {
+.menu {
+    background-color: rgb(230, 140, 23);
+    margin-bottom: 5px;
+}
+.mainmenu {
+    display: flex;
     list-style: none;
-    display: inline;
+    margin: 0;
+    padding: 0;
 }
-ul#main_menu li a {
-    padding: 15px 30px;
-    display: inline;
+.mainmenu li a {
+    color: black;
+    display: block;
+    padding: 5px 20px;
     text-decoration: none;
+<<<<<<< HEAD
     display: inline-block;
     font-size: 18px;
     transition: 0.4s;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:black;
+=======
+>>>>>>> ef05978357d4a9a468f89049952c57bcfafdde62
 }
-ul {
+li {
     text-align: center;
-    background-color: rgb(251, 236, 217);
+
 }
+li a {
+    font-size: 20px;
+}
+li a:hover {
+    background-color: rgb(227, 179, 117);
+}
+
+
+
+
 .image {
     width:100%;
     max-width: 100%;
@@ -39,6 +67,7 @@ ul {
    
 }
 
+<<<<<<< HEAD
 
 
 li a:hover {
@@ -73,3 +102,5 @@ li a:hover {
 }
 .textlitery{    max-height: 300px;
 }
+=======
+>>>>>>> ef05978357d4a9a468f89049952c57bcfafdde62
