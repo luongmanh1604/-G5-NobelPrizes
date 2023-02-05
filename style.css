@@ -15,14 +15,13 @@ body {
     overflow: hidden;
     background-color: rgb(246, 225, 197);
     text-align: center;
-    
 }
 .menu a {
     float: left;
     display: block;
     color: black;
     text-align: center;
-    padding:15px  ;
+    padding:15px ;
     text-decoration: none;
     text-align: center;
     font-size: 18px;
