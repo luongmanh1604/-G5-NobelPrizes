@@ -1,8 +1,3 @@
-.form {
-
-}
-
-
 
 .tieude {
     color: rgb(230, 140, 23);
@@ -28,6 +23,7 @@ ul#main_menu li a {
     display: inline-block;
     font-size: 18px;
     transition: 0.4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:black;
 }
 ul {
@@ -68,4 +64,12 @@ li a:hover {
     .form.side, .form.center {
       width: 100%;
     }
-  }
+}
+.formliterary{
+    max-width: 500px;
+}
+.sholokhov{
+    margin-left: 6%;
+}
+.textlitery{    max-height: 300px;
+}
