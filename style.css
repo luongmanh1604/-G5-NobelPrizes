@@ -1,9 +1,9 @@
-.form {
-
+body {
+    margin: 50px;
 }
-
-
-
+.header {
+    text-align: center;
+}
 .tieude {
     color: rgb(230, 140, 23);
     text-align: center;
@@ -11,29 +11,25 @@
     font-size: 30px;
     margin-bottom: 40px;
 }
-ul#main_menu {
-    
-    margin-left: auto;
-    margin-right:auto;
+.menu {
+    overflow: hidden;
+    background-color: rgb(246, 225, 197);
     text-align: center;
 }
-ul li {
-    list-style: none;
-    display: inline;
-}
-ul#main_menu li a {
-    padding: 12px 15px;
-    display: inline;
+.menu a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding:15px ;
     text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    transition: 0.4s;
-    color:black;
-}
-ul {
     text-align: center;
-    background-color: rgb(251, 236, 217);
+    font-size: 18px;
 }
+.menu a:hover {
+    background-color: rgb(223, 144, 41);
+}
+
 .image {
     width:100%;
     max-width: 100%;
@@ -42,26 +38,4 @@ ul {
 
    
 }
-li a:hover {
-    background-color: rgb(244, 191, 122);
-}
-.form {
-    float: left;
-    padding: 5px;
-}
-.form.side {
-    width: 5%;
-}
-.form.center {
-    width: 90%;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  @media screen and (max-width: 600px) {
-    .form.side, .form.center {
-      width: 100%;
-    }
-  }
+
