@@ -12,7 +12,7 @@ body {
     color: rgb(230, 140, 23);
     text-align: center;
     margin-top: 40px;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 .inmenu {
@@ -98,7 +98,6 @@ h1 {
     text-align: center;
 }
 
-/* css văn học */
 /* css văn học */
 form {
     border:solid 0.5px;
