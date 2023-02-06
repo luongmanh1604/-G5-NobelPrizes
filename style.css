@@ -42,7 +42,7 @@ body {
     transition: 0.4s;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:black;
-   
+   margin-left: 33px;
     text-align: center;
 }
 .mainmenu li {
