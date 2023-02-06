@@ -26,7 +26,6 @@ body {
     margin-bottom: 5px;
 }
 .mainmenu {
-   text-align: center;
    display: inline-block;
     list-style: none;
     margin: 0;
@@ -51,7 +50,7 @@ body {
 }
 
 
-}
+
 li a {
     font-size: 20px;
 }
@@ -73,35 +72,3 @@ li a:hover {
 
 
 
-li a:hover {
-    background-color: rgb(244, 191, 122);
-
-}
-.form {
-    float: left;
-    padding: 5px;
-}
-.form.side {
-    width: 5%;
-}
-.form.center {
-    width: 90%;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  @media screen and (max-width: 600px) {
-    .form.side, .form.center {
-      width: 100%;
-    }
-}
-.formliterary{
-    max-width: 500px;
-}
-.sholokhov{
-    margin-left: 6%;
-}
-.textlitery{    max-height: 300px;
-}
