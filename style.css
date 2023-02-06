@@ -67,7 +67,35 @@ li a:hover {
     height: auto;
     display: block;
 
-   
+}
+
+
+footer {
+    background-color: rgb(241, 216, 183);
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+h1 {
+    text-align: center;
 }
 
 
