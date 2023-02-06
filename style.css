@@ -12,7 +12,7 @@ body {
     color: rgb(230, 140, 23);
     text-align: center;
     margin-top: 40px;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 .inmenu {
@@ -97,35 +97,6 @@ footer {
 h1 {
     text-align: center;
 }
-<<<<<<< HEAD
-/* css văn học */
-/* css văn học */
-form {
-    border:solid 0.5px;
-    border-color: rgb(190, 187, 187);
-    margin-top: 20px;
-    border-radius: 8px;
-    padding-left: 30px;
-}
-.img {
-    border-radius: 10px;
-    height: 350px;
-    width: 350px;
-    
 
-}
-.tieude2 {
-    text-align: center;
-    font-size: 27px;
-    font-family: Arial, Helvetica, sans-serif;
-    color:  rgb(245, 149, 24);
- 
-}
-.thongtin {
-  width: 350px;
-}
-=======
-
->>>>>>> 254a3f8a092950b1ba0940c2d6d163ac7575c232
 
 
