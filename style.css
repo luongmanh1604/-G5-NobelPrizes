@@ -22,11 +22,11 @@ body {
 }
 .menu {
     justify-items: center;
-    background-color: rgb(230, 140, 23);
+    background-color: rgb(249, 200, 136);
     margin-bottom: 5px;
 }
 .mainmenu {
-   text-align: center;
+  text-align: center;
    display: inline-block;
     list-style: none;
     margin: 0;
@@ -46,7 +46,8 @@ body {
     text-align: center;
 }
 .mainmenu li {
-    float:left;
+   float: left;
+
     
 }
 
@@ -74,7 +75,7 @@ li a:hover {
 
 
 li a:hover {
-    background-color: rgb(244, 191, 122);
+    background-color: rgb(237, 178, 101);
 
 }
 .form {
