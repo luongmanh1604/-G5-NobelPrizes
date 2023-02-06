@@ -22,11 +22,10 @@ body {
 }
 .menu {
     justify-items: center;
-    background-color: rgb(249, 200, 136);
+    background-color: rgb(230, 140, 23);
     margin-bottom: 5px;
 }
 .mainmenu {
-  text-align: center;
    display: inline-block;
     list-style: none;
     margin: 0;
@@ -46,8 +45,7 @@ body {
     text-align: center;
 }
 .mainmenu li {
-   float: left;
-
+    float:left;
     
 }
 
@@ -69,35 +67,37 @@ li a:hover {
     height: auto;
     display: block;
 
-   
 }
 
 
-
-li a:hover {
-    background-color: rgb(237, 178, 101);
-
+footer {
+    background-color: rgb(241, 216, 183);
+    border: 2px solid black;
+    margin-top: 20px;
 }
-.form {
+.column {
     float: left;
-    padding: 5px;
-}
-.form.side {
-    width: 5%;
-}
-.form.center {
-    width: 90%;
-}
-.row:after {
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  
+  .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  @media screen and (max-width: 600px) {
-    .form.side, .form.center {
+  
+
+  @media screen and (max-width:600px) {
+    .column {
       width: 100%;
     }
+  }
+h1 {
+    text-align: center;
 }
+<<<<<<< HEAD
 /* css văn học */
 /* css văn học */
 form {
@@ -124,5 +124,8 @@ form {
 .thongtin {
   width: 350px;
 }
+=======
+
+>>>>>>> 254a3f8a092950b1ba0940c2d6d163ac7575c232
 
 
