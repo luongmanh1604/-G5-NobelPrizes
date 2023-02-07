@@ -57,10 +57,6 @@ li a {
 li a:hover {
     background-color: rgb(227, 179, 117);
 }
-
-
-
-
 .image {
     width:100%;
     max-width: 100%;
@@ -89,7 +85,7 @@ footer {
   }
   
 
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:800px) {
     .column {
       width: 100%;
     }
@@ -100,29 +96,47 @@ h1 {
 
 /* css văn học */
 form {
+  box-shadow: 5px 5px rgb(243, 241, 234);
     border:solid 0.5px;
     border-color: rgb(190, 187, 187);
     margin-top: 20px;
     border-radius: 8px;
-    padding-left: 30px;
+    padding-left: 50px;
+    background-color: rgb(243, 248, 248);
 }
 .img {
     border-radius: 10px;
-    height: 350px;
-    width: 350px;
+   width: 350px;
+   height: 350px;
+    max-width: 100%;
+    max-height: 100%;
     
 
 }
 .tieude2 {
     text-align: center;
-    font-size: 27px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color:  rgb(245, 149, 24);
+    color:  rgb(245, 149, 24);}
  
+    
+.imageprize {width: 260px;
+    max-width: 100%;
+    height: 260px;
+    margin-left: 25px;
+    margin-right: 25px;
+    max-height: 100%;
+    border: whitesmoke 2px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px rgb(217, 212, 212);
+
+  
 }
-.thongtin {
-  width: 350px;
-}
+
+  .imageprize:hover {
+    transform: scale(0,9.1);
+  }
 
 
 
